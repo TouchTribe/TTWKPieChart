@@ -6,7 +6,7 @@
 //
 
 #import "TTWKPieChart.h"
-#import <CoreText/CoreText.h>
+
 #import <UIKit/NSStringDrawing.h>
 
 /** Rounds to the neares half of a point, handy for 2x-retina used on Apple Watch. */
