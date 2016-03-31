@@ -1,3 +1,16 @@
-source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
 
-pod "TTWKPieChart", :path => "../"
+target 'TTWKPieChart' do
+  pod "TTWKPieChart", :path => "../"
+end
+
+target 'Tests' do
+end
+
+target 'TTWKPieChart WatchKit Extension' do
+  pod "TTWKPieChart", :path => "../"
+end
+
+target 'TTWKPieChart WatchKit App' do
+  platform :watchos, '2.0'
+end

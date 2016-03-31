@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2E106FD33F8D9AA1E94F4115 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A01A8F2F7A58E80180E0B0 /* libPods-Tests.a */; };
-		58EC9B7AD5DA90EE00E7CF30 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BD91013E33026BC9669004 /* libPods.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,13 +22,14 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		BCF0E29CBCDFDDE836C402EA /* libPods-TTWKPieChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B81AF76485E4E5B5BED8A81D /* libPods-TTWKPieChart.a */; };
+		A11F9A94ECAB8B881787156F /* libPods-TTWKPieChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B81AF76485E4E5B5BED8A81D /* libPods-TTWKPieChart.a */; };
 		F2862C7B1AAF076200D0AA1F /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2862C7A1AAF076200D0AA1F /* InterfaceController.m */; };
 		F2862C7D1AAF076200D0AA1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2862C7C1AAF076200D0AA1F /* Images.xcassets */; };
 		F2862C811AAF076200D0AA1F /* TTWKPieChart WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = F2862C801AAF076200D0AA1F /* TTWKPieChart WatchKit App.app */; };
 		F2862C891AAF076200D0AA1F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2862C871AAF076200D0AA1F /* Interface.storyboard */; };
 		F2862C8B1AAF076200D0AA1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2862C8A1AAF076200D0AA1F /* Images.xcassets */; };
 		F2862C8E1AAF076200D0AA1F /* TTWKPieChart WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F2862C751AAF076200D0AA1F /* TTWKPieChart WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F9B8C8C2C404C4B67DDE3DF2 /* libPods-TTWKPieChart WatchKit Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFBE6D8E3EC4AE2E0D41F84 /* libPods-TTWKPieChart WatchKit Extension.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +72,8 @@
 
 /* Begin PBXFileReference section */
 		042EE5D0E1275AA731B467BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		29F6A6062DE06ABDFE11A413 /* Pods-TTWKPieChart WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTWKPieChart WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTWKPieChart WatchKit Extension/Pods-TTWKPieChart WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		5FB54DF5A0A8F8EA8787AF18 /* Pods-TTWKPieChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTWKPieChart.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTWKPieChart/Pods-TTWKPieChart.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TTWKPieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTWKPieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -93,12 +95,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61BD91013E33026BC9669004 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEE2E1BD9A0C2C9C9A24F00 /* Pods-TTWKPieChart WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTWKPieChart WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTWKPieChart WatchKit Extension/Pods-TTWKPieChart WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		7DFF1C2BEE139C196B9B9796 /* Pods-TTWKPieChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTWKPieChart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTWKPieChart/Pods-TTWKPieChart.debug.xcconfig"; sourceTree = "<group>"; };
 		97A01A8F2F7A58E80180E0B0 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D307483A2E410718EA5CB42 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B81AF76485E4E5B5BED8A81D /* libPods-TTWKPieChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTWKPieChart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFBE6D8E3EC4AE2E0D41F84 /* libPods-TTWKPieChart WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTWKPieChart WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E806AD9B97820B20F298530A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E9413D08F2EE1755C37958D3 /* TTWKPieChart.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTWKPieChart.podspec; path = ../TTWKPieChart.podspec; sourceTree = "<group>"; };
-		EAF28F09EEDE8E8646833884 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F2862C751AAF076200D0AA1F /* TTWKPieChart WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TTWKPieChart WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2862C781AAF076200D0AA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2862C791AAF076200D0AA1F /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
@@ -118,8 +121,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				BCF0E29CBCDFDDE836C402EA /* libPods-TTWKPieChart.a in Frameworks */,
-				58EC9B7AD5DA90EE00E7CF30 /* libPods.a in Frameworks */,
+				A11F9A94ECAB8B881787156F /* libPods-TTWKPieChart.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B8C8C2C404C4B67DDE3DF2 /* libPods-TTWKPieChart WatchKit Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +182,7 @@
 				B81AF76485E4E5B5BED8A81D /* libPods-TTWKPieChart.a */,
 				97A01A8F2F7A58E80180E0B0 /* libPods-Tests.a */,
 				61BD91013E33026BC9669004 /* libPods.a */,
+				DFFBE6D8E3EC4AE2E0D41F84 /* libPods-TTWKPieChart WatchKit Extension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -240,8 +244,10 @@
 		A38EA1EFBDC22CD477FC9E24 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EAF28F09EEDE8E8646833884 /* Pods.debug.xcconfig */,
-				9D307483A2E410718EA5CB42 /* Pods.release.xcconfig */,
+				6AEE2E1BD9A0C2C9C9A24F00 /* Pods-TTWKPieChart WatchKit Extension.debug.xcconfig */,
+				29F6A6062DE06ABDFE11A413 /* Pods-TTWKPieChart WatchKit Extension.release.xcconfig */,
+				7DFF1C2BEE139C196B9B9796 /* Pods-TTWKPieChart.debug.xcconfig */,
+				5FB54DF5A0A8F8EA8787AF18 /* Pods-TTWKPieChart.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -290,12 +296,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TTWKPieChart" */;
 			buildPhases = (
-				5929D1CA52F92CE1235E1C32 /* Check Pods Manifest.lock */,
+				66C4F5970CDF0B516F54CEE4 /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				7E582D9A1762FF2A59EAED49 /* Copy Pods Resources */,
 				F2862C951AAF076200D0AA1F /* Embed App Extensions */,
+				39690A015689D78C31BEEBF7 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,7 +318,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				006E8B352FC841A842FB33C5 /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -331,9 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2862C921AAF076200D0AA1F /* Build configuration list for PBXNativeTarget "TTWKPieChart WatchKit Extension" */;
 			buildPhases = (
+				90A7F1B6FA74F5019A5C06A3 /* Check Pods Manifest.lock */,
 				F2862C711AAF076200D0AA1F /* Sources */,
 				F2862C721AAF076200D0AA1F /* Frameworks */,
 				F2862C731AAF076200D0AA1F /* Resources */,
+				CCDC2E10653E6CC7DD6FF242 /* Embed Pods Frameworks */,
+				9DE3EB4439787B0636ACDE7C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -442,21 +451,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		006E8B352FC841A842FB33C5 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		2862DC75FF2D4C9F1D453E03 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -472,7 +466,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5929D1CA52F92CE1235E1C32 /* Check Pods Manifest.lock */ = {
+		39690A015689D78C31BEEBF7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTWKPieChart/Pods-TTWKPieChart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66C4F5970CDF0B516F54CEE4 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -499,7 +508,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTWKPieChart/Pods-TTWKPieChart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90A7F1B6FA74F5019A5C06A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE3EB4439787B0636ACDE7C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTWKPieChart WatchKit Extension/Pods-TTWKPieChart WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCDC2E10653E6CC7DD6FF242 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTWKPieChart WatchKit Extension/Pods-TTWKPieChart WatchKit Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -661,7 +715,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAF28F09EEDE8E8646833884 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 7DFF1C2BEE139C196B9B9796 /* Pods-TTWKPieChart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -676,7 +730,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D307483A2E410718EA5CB42 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 5FB54DF5A0A8F8EA8787AF18 /* Pods-TTWKPieChart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -770,7 +824,7 @@
 		};
 		F2862C931AAF076200D0AA1F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAF28F09EEDE8E8646833884 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 6AEE2E1BD9A0C2C9C9A24F00 /* Pods-TTWKPieChart WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -784,12 +838,13 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
 		F2862C941AAF076200D0AA1F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAF28F09EEDE8E8646833884 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 29F6A6062DE06ABDFE11A413 /* Pods-TTWKPieChart WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				COPY_PHASE_STRIP = NO;
@@ -800,6 +855,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
